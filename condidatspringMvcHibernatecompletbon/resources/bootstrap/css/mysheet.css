@@ -1,0 +1,206 @@
+@charset "UTF-8";
+body,html {
+padding:0;
+margin:0;
+}
+
+body {
+
+font-family:'Raleway',sans_serif;
+}
+a,a:hover {
+text-decoration:none;
+}
+.container-fluid {
+padding:0;
+}
+.separator {
+height:3px;
+width:5%;
+border:none;
+box-shadow:none;
+background-color:#3498DB;
+
+}
+
+/* header */
+.header {
+background-color:#3498DB;
+height:60px;
+line-height :60px;
+}
+.logo {
+color:#ffffff;
+text-transform:uppercase;
+font-weight:bold;
+letter-spacing:1px;
+float: left;
+}
+.menu {
+float:right;
+
+}
+.menu a {
+color:#ffffff;
+margin-right:20px;
+font-weight:bold;
+}
+.menu a:hover {
+color:#2C3E50;
+}
+
+/* banniere */
+.banner {
+width:100%;
+max-width:100%;
+}
+.ban {
+width:100%;
+max-width:100%;
+position:relative;
+}
+.ban img {
+width:100%;
+max-width:100%;
+height: 300px;
+}
+
+.port img {
+width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	display: block;
+	padding-bottom:10px; 
+}
+
+.inner-banner {
+position :absolute;
+top:20%;
+left :20%;
+width:100%;
+text-align:center;
+
+}
+.inner-banner h1{
+color:#ffffff;
+text-shadow:1px 1px 20px #000000;
+
+}
+.inner-banner .btn-custom{
+background-color:#3498BD;
+color:#ffffff;
+}
+
+.inner-banner .btn-custom:hover{
+background-color:#2C3E50;
+
+}
+
+/* about */
+.about {
+text-align:center;
+padding-top:5%;
+}
+.about article {
+}
+
+.about article h2{
+text-align:center;
+
+}
+
+/* portfolio */ 
+#portfolio {
+background-color:#eeeeee;
+
+
+}
+.portfolio {
+text-align:center;
+
+}
+.portfolio .item-folio{
+height:300px;
+background-color:#3498DB;
+}
+
+/* footer*/
+.footer {
+clear:both;
+margin-top:20px;
+background-color:#2C3E50;
+color:#ffffff;
+text-align:center;
+height:50x;
+
+}
+/* contact */
+
+#contact {
+background-color:#eeeeee;
+text-align:center;
+}
+
+
+
+.bgimage {
+    background: url('../images/casa2.jpg');
+    background-size: cover;     
+    background-position :center center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+
+
+.myimg{
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	display: block;
+	padding-bottom:10px; 
+}
+.items{
+	text-align: center;
+}
+
+.jumbotron{
+
+background: #358CCE;
+
+color: #FFF;
+
+border-radius: 0px;
+
+}
+
+.jumbotron-sm { 
+padding-top: 24px;
+
+padding-bottom: 24px; }
+
+.jumbotron small {
+
+color: #FFF;
+
+}
+
+.h1 small {
+
+font-size: 24px;
+
+}
+
+.classImage {
+float:right;
+margin-right:150px;
+    border-radius: 50%;
+    width:150px ;
+    height:150px ;     
+    padding: 5px;   
+}
+
+#imgEntete {
+    max-width: 100%;    
+    height:300px;
+}
+
